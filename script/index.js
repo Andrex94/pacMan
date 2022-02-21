@@ -14,10 +14,10 @@ function Run() {
   direction = checkPageBounds(direction, imgWidth);
   img.src = pacArray[direction][focus];
   if (direction) {
-    pos -= 20;
+    pos -= 50;
     img.style.left = pos + "px";
   } else {
-    pos += 20;
+    pos += 50;
     img.style.left = pos + "px";
   }
   // Use setTimeout to call Run every 200 millesecs
